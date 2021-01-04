@@ -1,0 +1,46 @@
+/*
+html, body {
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0 auto;
+    text-align: center;
+    
+}
+*/
+
+header {
+    position: relative;
+    margin: auto auto;
+    text-align: center;
+}
+
+article {
+    position: relative;
+    margin-top: 10%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+input {
+    width: 254px;
+    height: 30px;
+    background-color: black;
+    color: white;
+    border: solid 1px black;
+}
+
+#outputLabel {
+    border: solid 2px black;
+    border-top: none;
+    width: 250px;
+    height: 100px;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0;
+    padding-top: 50px;
+    
+}
+
