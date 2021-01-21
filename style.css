@@ -1,13 +1,6 @@
-/*
-html, body {
-    position: relative;
-    margin-left: auto;
-    margin-right: auto;
-    padding: 0 auto;
-    text-align: center;
-    
+html {
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
-*/
 
 header {
     position: relative;
@@ -24,23 +17,30 @@ article {
 }
 
 input {
-    width: 254px;
-    height: 30px;
+    width: 250px;
+    height: 60px;
     background-color: black;
     color: white;
     border: solid 1px black;
+    font-size: 16pt;
+    transition: linear 0.2s;
+}
+
+input:hover {
+    background-color: white;
+    color: black;
+
 }
 
 #outputLabel {
-    border: solid 2px black;
     border-top: none;
-    width: 250px;
-    height: 100px;
     position: relative;
     margin-left: auto;
     margin-right: auto;
     margin-top: 0;
     padding-top: 50px;
+    font-size: 54pt;
+    color: red;
     
 }
 
